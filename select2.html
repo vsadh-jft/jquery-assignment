@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select2 </title>
+    <script src="jquery.js"></script>
+    <link href="select2.css" rel="stylesheet" />
+
+
+
+            </head>
+            <body>
+
+
+
+
+
+<form>
+    <select  id="countries">
+        <option value="IND">INDIA</option>
+        <option value="USA">USA</option>
+        <option value="AUS">AUSTRALIA</option>
+        <option value="SK">SOUTH KOREA</option>
+
+        <option value="Br">BRAZIL</option>
+    </select>
+</form>
+
+
+
+
+<script src="select2.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $("#countries").select2();
+    });
+</script>
+            </body>
+</html>

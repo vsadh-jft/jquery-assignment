@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter bootstrap </title>
+    <script src="jquery.js" > </script>
+    <style >
+        #content
+        {
+
+
+            margin-top: 400px;
+        }
+
+
+    </style>
+            </head>
+            <body>
+
+
+
+<div id="content">
+
+
+
+<form>
+     <input type="radio" name="a" id="op1"  />
+
+    <input type="radio" name="a" id="op2"  />
+    <input type="radio" name="a" id="op3"  />
+
+            </form>
+    <button id="btn">CLICK</button>
+</div>
+<script>
+            $(document).ready(function(){
+                $('input[id=op1]').attr('checked', 'checked');
+                $("#btn").click(function(){
+                $('input[id=op3]').attr('checked', 'checked');
+            });
+            });
+</script>
+            </body>
+</html>

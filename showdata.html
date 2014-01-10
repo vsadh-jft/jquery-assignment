@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter bootstrap </title>
+
+    <style >
+        #content
+        {
+
+
+            margin-top: 400px;
+        }
+
+
+    </style>
+            </head>
+            <body>
+
+
+
+<div id="content">
+
+
+
+<p id="data">
+
+   THIS IS DATA
+</p>
+    <button id="btn">HIDE</button>
+    <button id="btn2">SHOW</button>
+</div>
+<script src="jquery.js" > </script>
+<script>
+            $(document).ready(function(){
+
+                $("#btn").click(function(){
+                $("#data").hide();
+            });
+                $("#btn2").click(function(){
+                    $("#data").show();
+                });
+            });
+</script>
+            </body>
+</html>
